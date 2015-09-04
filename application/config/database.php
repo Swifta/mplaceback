@@ -30,13 +30,13 @@ $config['default'] = array
 	'persistent'    => FALSE,
 	'connection'    => array
 	(
-		'type'     => 'mysql',
+		'type'     => 'mysqli',
 		'user'     => 'root',
-		'pass'     => 'mysql',
+		'pass'     => '',
 		'host'     => 'localhost',
 		'port'     => FALSE,
 		'socket'   => FALSE,
-		'database' => 'mrketplace'
+		'database' => 'emarketplace'
 	),
 	'character_set' => 'utf8',
 	'table_prefix'  => '',
